@@ -33,7 +33,7 @@ jobs:
       - name: Build the Android plugin
         run: |
           cd ClawMobile/openclaw-plugin-mobile-ui
-          npm ci
+          npm install
           npm run build
 
       - name: Copy plugin assets into the app
